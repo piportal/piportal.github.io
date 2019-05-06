@@ -1,0 +1,89 @@
+body {
+    background-color: #23272A;
+}
+
+#tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 100px;
+}
+#youtube-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70%;
+}
+
+#youtube {
+    width: 300px;
+    height: 500px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+
+#netflix-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70%;
+}
+
+#netflix {
+    width: 300px;
+    height: 500px;
+    background-color: #b81d24;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+
+#spotify-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70%;
+}
+
+#spotify {
+    width: 300px;
+    height: 500px;
+    background-color: #1DB954;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+
+#twitch-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70%;
+}
+
+#twitch {
+    width: 300px;
+    height: 500px;
+    background-color: #6441A4 ;
+    border-radius: 10px;
+}
+
+#twitch:hover {
+    box-shadow: 10px 10px 5px #050505;
+    zoom: 1.05;
+}
+
+#youtube:hover {
+    box-shadow: 10px 10px 5px #050505;
+    zoom: 1.05;
+}
+
+#netflix:hover {
+    box-shadow: 10px 10px 5px #050505;
+    zoom: 1.05;
+}
+
+#spotify:hover {
+    box-shadow: 10px 10px 5px #050505;
+    zoom: 1.05;
+}
